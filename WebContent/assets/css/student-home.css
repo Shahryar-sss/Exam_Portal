@@ -1,0 +1,15 @@
+.outer-text {
+    font-weight: bold;
+    font-size: 32px;
+    background: linear-gradient(to right, #065f9b 0%, #01dd97 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inner-text {
+    font-weight: bold;
+    font-size: 32px;
+    background: linear-gradient(to right, #dd2901 0%, #ddad01 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

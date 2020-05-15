@@ -1,0 +1,39 @@
+.btn-warning {
+    background-color: mediumslateblue;
+    border-color: mediumslateblue;
+    color: white;
+    /* font-size: 26px; */
+    /* padding: 8px 20px 10px 20px; */
+}
+
+.btn:hover {
+    background-color: slateblue;
+    border-color: slateblue;
+    color: white;
+}
+
+.btn-warning:active, .btn-warning:focus, .btn-warning:visited {
+    background-color: #8064A2 !important;
+    background-color: mediumslateblue !important;
+    border-color: mediumslateblue !important;
+    color: white !important;
+    /* font-size: 26px !important; */
+    /* padding: 8px 20px 10px 20px !important; */
+    box-shadow:none !important;
+}
+
+.outer-text {
+    font-weight: bolder;
+    font-size: 36px;
+    background: linear-gradient(to right, #065f9b, #01dd97);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inner-text {
+    font-weight: bolder;
+    font-size: 36px;
+    background: linear-gradient(to right, #dd2901 0%, #ddad01 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
